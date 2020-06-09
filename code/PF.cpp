@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	mxArray *mxarray;
 	double *data;
 
-	string dstPath = "../../../results/3D/";
+	string dstPath = "../data/";
 	string srcFile = dstPath + "RelabeledData.mat";
 	matFile = matOpen(srcFile.data(), "r");
 	cout << "file opened" << endl;
