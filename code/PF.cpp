@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	double *data;
 
 	string dstPath = "../data/";
-	string srcFile = dstPath + "RelabeledData.mat";
+	string srcFile = dstPath + "LabeledData.mat";
 	matFile = matOpen(srcFile.data(), "r");
 	cout << "file opened" << endl;
 
